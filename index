@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Élégance Café | Premium Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">L'Élégance</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Signature</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>L'Élégance Café</h1>
+            <p>ศิลปะแห่งการคั่วและการชง สู่ความสมบูรณ์แบบในทุกหยด</p>
+            <a href="#menu" class="btn-primary">Explore Menu</a>
+        </div>
+    </header>
+
+    <section id="menu" class="menu section-padding">
+        <div class="section-title fade-in">
+            <h2>Signature Blends</h2>
+            <p>สัมผัสรสชาติอันเป็นเอกลักษณ์ ที่เราคัดสรรมาเพื่อคุณโดยเฉพาะ</p>
+        </div>
+        <div class="menu-grid">
+            
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?q=80&w=800&auto=format&fit=crop" alt="The Velvet Espresso">
+                </div>
+                <div class="menu-info">
+                    <h3>The Velvet Espresso</h3>
+                    <p class="notes">Notes: Dark Chocolate, Roasted Almonds</p>
+                    <p class="desc">เอสเพรสโซ่ช็อตเข้มข้น บอดี้แน่น ให้สัมผัสนุ่มละมุนดุจกำมะหยี่</p>
+                    <span class="price">฿120</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop" alt="Himalayan Gold Drip">
+                </div>
+                <div class="menu-info">
+                    <h3>Himalayan Gold Drip</h3>
+                    <p class="notes">Notes: Jasmine, Citrus, Honey</p>
+                    <p class="desc">กาแฟดริปสกัดเย็นจากเมล็ดพันธุ์หายาก หอมดอกไม้และสดชื่น</p>
+                    <span class="price">฿180</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=800&auto=format&fit=crop" alt="Signature Dirty">
+                </div>
+                <div class="menu-info">
+                    <h3>Signature Dirty</h3>
+                    <p class="notes">Notes: Creamy Milk, Intense Ristretto</p>
+                    <p class="desc">นมเย็นจัดสูตรลับ ท็อปด้วยริสเทรตโตช็อต รสชาติกลมกล่อมลงตัว</p>
+                    <span class="price">฿150</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?q=80&w=800&auto=format&fit=crop" alt="Midnight Mocha">
+                </div>
+                <div class="menu-info">
+                    <h3>Midnight Mocha</h3>
+                    <p class="notes">Notes: Rich Cocoa, Espresso, Vanilla</p>
+                    <p class="desc">ช็อกโกแลตพรีเมียมผสมผสานกับเอสเพรสโซ่ช็อต หอมหวานลงตัว</p>
+                    <span class="price">฿140</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=800&auto=format&fit=crop" alt="Caramel Macchiato Reserve">
+                </div>
+                <div class="menu-info">
+                    <h3>Caramel Macchiato Reserve</h3>
+                    <p class="notes">Notes: Vanilla, Buttery Caramel</p>
+                    <p class="desc">นมสดวนิลลาท็อปด้วยเอสเพรสโซ่ ราดด้วยคาราเมลโฮมเมด</p>
+                    <span class="price">฿160</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://avayacafe.com/wp-content/uploads/2025/11/8-heazulnut-cappucino.webp" alt="Hazelnut Cortado">
+                </div>
+                <div class="menu-info">
+                    <h3>Hazelnut Cortado</h3>
+                    <p class="notes">Notes: Roasted Hazelnut, Smooth Milk</p>
+                    <p class="desc">เอสเพรสโซ่ผสมนมร้อนในสัดส่วนเท่ากัน หอมกลิ่นเฮเซลนัทคั่ว</p>
+                    <span class="price">฿130</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop" alt="Nitro Cold Brew">
+                </div>
+                <div class="menu-info">
+                    <h3>Nitro Cold Brew</h3>
+                    <p class="notes">Notes: Smooth, Stout-like, Sweet</p>
+                    <p class="desc">กาแฟสกัดเย็นอัดก๊าซไนโตรเจน ฟองนุ่มละมุน ดื่มง่ายไม่บาดคอ</p>
+                    <span class="price">฿170</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?q=80&w=800&auto=format&fit=crop" alt="Affogato al Caffè">
+                </div>
+                <div class="menu-info">
+                    <h3>Affogato al Caffè</h3>
+                    <p class="notes">Notes: Vanilla Bean Gelato, Espresso</p>
+                    <p class="desc">ไอศกรีมเจลาโต้วานิลลาแท้ ราดด้วยเอสเพรสโซ่ร้อนๆ สุดพรีเมียม</p>
+                    <span class="price">฿190</span>
+                </div>
+            </div>
+
+            <div class="menu-card glass-effect fade-in">
+                <div class="menu-img">
+                    <img src="https://carrotsandtigers.com/wp-content/uploads/2025/01/irish-coffee-03.jpg?w=616" alt="Irish Coffee Noir">
+                </div>
+                <div class="menu-info">
+                    <h3>Irish Coffee Noir</h3>
+                    <p class="notes">Notes: Oak, Heavy Cream, Brown Sugar</p>
+                    <p class="desc">กาแฟคั่วเข้มผสมไซรัปกลิ่นวิสกี้ (ไม่มีแอลกอฮอล์) ท็อปด้วยครีมสด</p>
+                    <span class="price">฿180</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery section-padding">
+        <div class="section-title fade-in">
+            <h2>The Art of Brewing</h2>
+            <p>ทุกขั้นตอนคือความใส่ใจ เพื่อให้ได้กาแฟที่สมบูรณ์แบบที่สุด</p>
+        </div>
+        <div class="gallery-container fade-in">
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop" class="gallery-img" alt="Brewing 1">
+            <img src="https://images.unsplash.com/photo-1444418185997-1145401101e0?q=80&w=800&auto=format&fit=crop" class="gallery-img" alt="Brewing 2">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop" class="gallery-img" alt="Brewing 3">
+            <img src="https://santipanich.com/wp-content/uploads/2021/04/coffee-mug-filled-with-coffee-beans-and-coffee-bac-PKF6B82.jpg" class="gallery-img" alt="Brewing 4">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop" class="gallery-img" alt="Brewing 5">
+            <img src="https://santipanich.com/wp-content/uploads/2021/04/falling-roasted-coffee-beans-dark-surface.jpg" class="gallery-img" alt="Brewing 6">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="section-title fade-in">
+            <h2>Client Experiences</h2>
+            <p>ความประทับใจจากลูกค้าคนสำคัญของเรา</p>
+        </div>
+        <div class="test-grid">
+            <div class="test-card glass-effect fade-in">
+                <p>"บรรยากาศร้านหรูหรามาก กาแฟ The Velvet Espresso คือที่สุด หอมและเข้มข้นตรงใจมากครับ"</p>
+                <div class="reviewer">- คุณกิตติ, Coffee Enthusiast</div>
+            </div>
+            <div class="test-card glass-effect fade-in">
+                <p>"เหมาะกับการมานั่งจิบกาแฟพักผ่อนในวันหยุด พนักงานบริการดีเยี่ยม ใส่ใจในทุกรายละเอียดของแก้ว"</p>
+                <div class="reviewer">- คุณแพรวา, Lifestyle Blogger</div>
+            </div>
+            <div class="test-card glass-effect fade-in">
+                <p>"Nitro Cold Brew นุ่มละมุนมาก ฟองละเอียดเหมือนดื่มเบียร์สเตาต์ ประทับใจมากค่ะ"</p>
+                <div class="reviewer">- คุณนภัส, Designer</div>
+            </div>
+            <div class="test-card glass-effect fade-in">
+                <p>"การตกแต่งร้านดูแพง ถ่ายรูปมุมไหนก็สวย แสงดีมาก เมนูขนมและกาแฟเข้ากันได้อย่างลงตัว"</p>
+                <div class="reviewer">- คุณอลิสา, Content Creator</div>
+            </div>
+            <div class="test-card glass-effect fade-in">
+                <p>"Barista มีความรู้เรื่องเมล็ดกาแฟดีมาก แนะนำ Himalayan Gold Drip ได้ตรงกับรสชาติที่ผมตามหาเลย"</p>
+                <div class="reviewer">- คุณธนภัทร, Business Owner</div>
+            </div>
+            <div class="test-card glass-effect fade-in">
+                <p>"Affogato al Caffè ที่นี่คือที่สุดของหวานหลังมื้ออาหาร เจลาโต้ตัดกับกาแฟได้เพอร์เฟกต์"</p>
+                <div class="reviewer">- คุณพิมพ์ชนก, Food Critic</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="contact-box glass-effect fade-in">
+            <h2>Contact & Developer</h2>
+            <div class="developer-info">
+                <p><strong>นายศักดิพงศ์ สุนทรวัฒนกิจ</strong></p>
+                <p>รหัสนักศึกษา 68106581</p>
+                <p>มหาวิทยาลัยศรีปทุม</p>
+                <a href="mailto:sakdipong.soo@spumail.net" class="email-btn">sakdipong.soo@spumail.net</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 L'Élégance Café. Crafted with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
